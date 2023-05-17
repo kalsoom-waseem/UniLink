@@ -1,0 +1,147 @@
+.view-user-add {
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.view-user-friend {
+    padding: 0.5rem 0.5rem 0.3rem 0.5rem;
+    border-radius: 50%;
+    background-color: var(--clr-primary);
+}
+
+.view-user-not-friend {
+    padding: 0.5rem 0.5rem 0.3rem 0.5rem;
+    border-radius: 50%;
+    background-color: var(--clr-grey-2);
+}
+
+.view-user-grey {
+    color: var(--clr-grey-3);
+}
+
+.view-user-pending, .view-user-pending2 {
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    transition: all 0.15s;
+}
+
+.view-user-pending:hover, .view-user-pending2 {
+    background-color: rgb(229, 229, 229)
+}
+
+.view-user-repond-to-request {
+    color: gray;
+    transition: all 0.15s;
+}
+
+.view-user-repond-to-request:hover, .view-user-repond-to-request2 {
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(245, 245, 245)
+}
+
+.view-user-respond-div{
+    background-color: white;
+    position: absolute;
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    box-shadow: 0 1px 0.5rem rgba(0, 0, 0, 0.278);
+}
+
+.view-user-respond-div-accept, .view-user-respond-div-reject{
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    transition: all 0.15s;
+}
+
+.view-user-respond-div-accept:hover, .view-user-respond-div-reject:hover {
+    background-color: rgb(229, 229, 229)
+}
+
+.view-user-cancel-div {
+    background-color: white;
+    position: absolute;
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    box-shadow: 0 1px 0.5rem rgba(0, 0, 0, 0.278);
+}
+
+.view-user-cancel {
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    transition: all 0.15s;
+}
+
+.view-user-cancel:hover {
+    background-color: rgb(229, 229, 229)
+}
+
+.user-about-wrapper {
+    font-family: var(--ff-primary);
+    background-color: var(--clr-grey-4);
+    margin: 1.7rem;
+    padding: 1.7rem;
+    border-radius: 1rem;
+}
+
+.user-about-div:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
+.user-about-h {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.user-profile-wrapper {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(239,239,239);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.user-profile-img {
+    width: 3.4rem;
+    height: 3.4rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-profile-info {
+    flex: 2;
+    justify-self: start;
+    padding-left: 1rem;
+}
+
+.user-profile-add {
+    cursor: pointer;
+}
+
+.user-profile-friend {
+    padding: 1rem 1rem 0.8rem 1rem;
+    border-radius: 50%;
+    background-color: var(--clr-primary);
+}
+
+.user-profile-name {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.user-profile-grey {
+    color: var(--clr-grey-3);
+    font-size: 0.9rem;
+}
+
+.user-profile-no-friends {
+    font-size: 1.2rem;
+    color: gray;
+    text-align: center;
+    margin-top: 4rem
+}

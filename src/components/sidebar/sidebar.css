@@ -1,0 +1,128 @@
+.sidebar {
+    flex: 2;
+    /* height: calc(100vh - 50px); */
+    height: 100vh;
+    /* overflow-y: scroll; */
+    position: sticky;
+    top: 0rem;
+    border-right: var(--border1);
+    /* margin-top: 4rem; */
+  }
+  
+  /* ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+  } */
+  
+  .sidebarWrapper {
+    font-size: 1.1rem;
+  }
+  
+  .sidebarList {
+    padding: 0.5rem 0rem;
+    margin: 1rem 0;
+    list-style: none;
+  }
+
+  .sideBarListWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center;  */
+    padding-left: 1rem;
+    border-bottom: var(--border1);
+  }
+  
+  .sidebarListItem {
+    display: flex;
+    align-items: center;
+    margin: 0.9rem;
+  }
+  
+  .sidebarIcon {
+    margin-right: 1.2rem;
+  }
+  
+  .sidebarButton {
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+
+  .sidebarTrendsWrapper {
+    padding: 1.5rem 2rem;
+    padding-bottom: 1rem;
+    border-bottom: var(--border1);
+  }
+
+  .trendsHeading {
+    text-align: center;
+    letter-spacing: var(--spacing1);
+    margin: 0;
+  }
+  
+  .sidebarTrendsList {
+    padding: 0;
+    list-style: none;
+  }
+  .sidebarTrendsList li {
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: all 0.15s linear;
+  }
+
+  .sidebarTrendsList li:hover {
+    color: var(--clr-primary-dark);
+    font-weight: 500;
+  }
+
+  .sidebarListItemText {
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.15s all linear;
+    letter-spacing: var(--spacing1);
+  }
+
+  .sidebarListItemText:hover {
+    color: var(--clr-primary-dark);
+  }
+
+.no-new-r {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: gray;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.sidebarRecUsers{
+  overflow: auto;
+  max-height: 20rem;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebarRecUsers li {
+  /* margin: 1rem 0; */
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+
+.recsHeading {
+  text-align: center;
+  letter-spacing: var(--spacing1);
+  margin-bottom: 1rem;
+}
+
+.recsTrendsWrapper {
+  padding: 1.5rem 0rem;
+  padding-bottom: 1rem;
+  /* border-bottom: var(--border1); */
+}
